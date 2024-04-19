@@ -1,0 +1,23 @@
+
+  {
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "lib": ["es2017"],
+      "allowJs": true,
+      "jsx": "react-native",
+      "noEmit": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "paths": {
+        "*": ["types/*"]
+      },
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
+
